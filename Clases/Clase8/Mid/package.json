@@ -1,0 +1,16 @@
+{
+  "name": "clase7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejemploMid.js",
+  "scripts": {
+    "start": "node EjemploRest.js",
+    "start:dev": "nodemon ejemploMid.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Ingrese Persona</h1>
+    <form action="/api/personas"method="POST">
+        Nombre: <input type="text" name="Nombre">
+        Apellido: <input type="text" name="Apellido">
+        Edad: <input type="text" name="Edad">
+        <button>Enviar</button>
+    </form>
+
+    <h2>Ingrese Mascota</h2>
+    <form action="api/mascotas" method="POST">
+        Nombre: <input type="text" name="Nombre">
+        Raza: <input type="text" name="Raza">
+        Edad: <input type="text" name="Edad">
+        <button>Enviar</button>
+    </form>
+
+</body>
+
+</html>

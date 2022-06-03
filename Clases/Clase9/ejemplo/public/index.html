@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <span id="BuenDia"></span> 
+    <span id="Adios"></span> 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+
+    <script>
+
+        const contexto = {
+            nombre: 'Roberto Carlos'
+        }
+
+        const templateBuenDia = '<h1>Buen dia {{nombre}}</h1>'
+        const templateAdios = '<h1>Hasta luego {{nombre}}</h1>'
+        
+        const generarBuenDia = Handlebars.compile(templateBuenDia); //compila la plantilla
+        const generarAdios = Handlebars.compile(templateAdios); //compila la plantilla
+        
+        const htmlBuenDia = generarBuenDia(contexto); //genera el html
+        const htmlAdios = generarAdios(contexto); //genera el html
+        
+        //document.querySelector('span').innerHTML = html;
+        document.getElementById('span').innerHTML = htmlBuenDia; //Inyecta resultado en vista
+        document.getElementById('span').innerHTML = htmlAdios; //Inyecta resultado en vista
+
+
+    </script>
+</body>
+</html>

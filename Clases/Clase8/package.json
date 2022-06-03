@@ -1,0 +1,16 @@
+{
+  "name": "clase7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "EjemploRouter.js",
+  "scripts": {
+    "start": "node EjemploRest.js",
+    "start:dev": "nodemon EjemploRest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
