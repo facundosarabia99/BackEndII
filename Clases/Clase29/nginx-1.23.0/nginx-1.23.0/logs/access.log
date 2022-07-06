@@ -1,0 +1,4 @@
+192.168.0.110 - - [05/Jul/2022:21:21:06 -0300] "GET / HTTP/1.1" 200 615 "-" "Avast Antivirus"
+192.168.0.110 - - [05/Jul/2022:21:21:12 -0300] "GET /HNAP1/ HTTP/1.1" 404 153 "-" "Avast Antivirus"
+127.0.0.1 - - [06/Jul/2022:01:15:24 -0300] "GET / HTTP/1.1" 200 615 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+127.0.0.1 - - [06/Jul/2022:01:15:24 -0300] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:8070/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
